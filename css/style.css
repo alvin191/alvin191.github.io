@@ -187,19 +187,23 @@ footer {
 .dapxe {
 	z-index : 4;
 	position : absolute;
-	bottom : 30px;
+	bottom : 0px;
 	margin : 0 auto;
 	width : 100%;
 	text-align : center;
 	
+}
+.dapdap{
+	margin-top: -40%; 
 }
 
 .ngogiang{
 	z-index: 5;
 	position : relative;
 	text-align: center;
+	margin-top: -23%;
 	margin-left: 2%;
-	margin-top: -2%; 
+
 
 }
 .anhngogiang{
@@ -241,12 +245,11 @@ footer {
 	z-index: 6;
 	position : relative;
   animation-name: quaa;
-  /*animation-delay: 10000ms;*/
   animation-duration: 10500ms;
   animation-iteration-count: infinite;
   left: 10%;
-  top: -30%;
    opacity: 0.4;
+
 
 }
 
@@ -256,17 +259,16 @@ footer {
     left: 10%;
     width: 50px;
 	height: 50px;
-    top: -30%;
     transform:rotate(45deg);
 
   }
   100% {
-  	left: 42%;
+  	left: 40%;
     opacity: 1;
     width: 175px;
 	height: 175px;
-    top: 92%;
     transform:rotate(-45deg);
+
 
   }
 }
@@ -275,7 +277,7 @@ footer {
 	font-style:  oblique ;
 	color: #FF0000 !important;
 }
-.nhac{
-	/*visibility: hidden;*/
+.class{
+	 opacity: 0;
 }
 body {background:url('https://img.thuthuatphanmem.vn/uploads/2018/10/01/anh-nen-dep-mau-hong_040306417.jpg')no-repeat fixed center center;-webkit-transition: all 1.0s ease;-moz-transition: all 1.0s ease;transition: all 1.0s ease;}
